@@ -68,7 +68,7 @@ public class TestBase {
 			log.debug("maximize the browser");
 			driver.manage().window().maximize();
 			
-			log.debug("add implicit wait ");
+			log.debug("add implicit wait command ");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			log.debug("create object for WebDriverWait class");
 			wait=new WebDriverWait(driver,30);
