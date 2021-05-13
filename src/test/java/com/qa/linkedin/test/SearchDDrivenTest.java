@@ -16,7 +16,6 @@ import org.testng.annotations.AfterClass;
 public class SearchDDrivenTest extends TestBase {
 
 	private Logger log = Logger.getLogger(SearchDDrivenTest.class);
-log.debug("declaring the instance variable ");
 	LinkedinHomePage lHomePage = null;
 	LinkedinLoggedinPage llPage = null;
 	SearchResultsPage srPage = null;
