@@ -77,7 +77,7 @@ public class TestBase {
 			driver.get(readPropertyValue("applicationUrl"));
 			
 		}
-		
+		/**this method skills the browser*/
 		@AfterSuite
 		public void tearDown() {
 			log.debug("triggering browser closing activity");
