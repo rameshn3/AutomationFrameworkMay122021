@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
 public class LinkedinLoggedinPage extends BasePageWeb{
-
+//adding the logs
 	private Logger log = Logger.getLogger(LinkedinLoggedinPage.class);
 	
 	//constructor
