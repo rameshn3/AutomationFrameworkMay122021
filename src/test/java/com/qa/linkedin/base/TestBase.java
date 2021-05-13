@@ -1,5 +1,4 @@
 package com.qa.linkedin.base;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
