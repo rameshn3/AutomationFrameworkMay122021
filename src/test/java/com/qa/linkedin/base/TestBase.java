@@ -45,7 +45,7 @@ public class TestBase {
 			log.debug("Started executing the browser launching setup()");
 			log.debug("fetch the browser value from properties file");
 			String browserName=readPropertyValue("browser");
-			
+			log.debug("checking the browser value");
 			if(browserName.equalsIgnoreCase("chrome")) {
 				log.debug("setting my chrome browser exe file");
 				WebDriverManager.chromedriver().setup();
