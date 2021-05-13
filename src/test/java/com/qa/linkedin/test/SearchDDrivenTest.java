@@ -1,18 +1,14 @@
 package com.qa.linkedin.test;
 
 import org.testng.annotations.Test;
-
 import com.qa.linkedin.base.TestBase;
 import com.qa.linkedin.page.LinkedinHomePage;
 import com.qa.linkedin.page.LinkedinLoggedinPage;
 import com.qa.linkedin.page.SearchResultsPage;
 import com.qa.linkedin.util.ExcelUtils;
-
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
-
 import java.io.IOException;
-
 import org.apache.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.annotations.AfterClass;
@@ -20,7 +16,7 @@ import org.testng.annotations.AfterClass;
 public class SearchDDrivenTest extends TestBase {
 
 	private Logger log = Logger.getLogger(SearchDDrivenTest.class);
-
+log.debug("declaring the instance variable ");
 	LinkedinHomePage lHomePage = null;
 	LinkedinLoggedinPage llPage = null;
 	SearchResultsPage srPage = null;
