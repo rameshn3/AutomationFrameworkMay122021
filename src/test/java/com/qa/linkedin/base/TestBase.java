@@ -5,7 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,11 +14,10 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
-
+//adding logger for this class
 	private Logger log=Logger.getLogger(TestBase.class);
 	public static WebDriver driver=null;
 	public WebDriverWait wait=null;
@@ -39,7 +37,9 @@ public class TestBase {
 			}
 			return prop.getProperty(key);
 		}
-	
+	/**
+	*This method launches the browser and opens the application url
+	*/
 	
 		@BeforeSuite
 		public void setup() throws IOException {
